@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Web App - Simple Interest Calculator</title>
+    </head>
+    <body>
+        <div class="maindiv">
+            <h1>Simple Interest Calculator</h1>
+
+            <div class="form__container">
+                <table class="form__layout">
+                    <tbody>
+                        <tr>
+                            <td><label for="principal">Amount</label></td>
+                            <td>
+                                <input type="number" id="principal">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="rate">Rate</label></td>
+                            <td class="interest-rate-slider">
+                                <input type="range"  id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate();">
+                                <span id="rate_val">10.25%</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="years">No. of Years</label></td>
+                            <td>
+                                <select id="years">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select><br/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><button class="compute-button" onclick="compute()">Compute Interest</button></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="results-container">
+                    <span id="result"></span>
+                </div>
+            </div>
+            <footer class="widget-footer">
+                &#169; Everyone Can Get Rich<br/>
+                This Calculator belongs to James Hickman
+            </footer>
+        </div>
+    </body>
+</html>

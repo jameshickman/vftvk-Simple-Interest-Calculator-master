@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
+
+h1{
+    color: grey;
+    font-family: verdana;
+    font-size: 125%;
+}
+
+.maindiv {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.form__layout,
+.results-container {
+    display: block;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 11px;
+}
+
+.interest-rate-slider {
+    white-space: nowrap;
+}
+
+#principal {
+    width: 120px;
+}
+
+#rate {
+    width: 60px;
+}
+
+.results-highlight {
+    background-color: yellow;
+}
+
+.form__layout td {
+    padding-bottom: 5px;
+}
+
+.compute-button {
+    font-size: 80%;
+    white-space: nowrap;
+}
+
+.widget-footer {
+    font-size: 85%;
+}
