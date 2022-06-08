@@ -1,1 +1,1 @@
-# coding-project-template
+# Jemes Hickman's final for Introduction to Web Development with HTML, CSS, JavaScript IBM
